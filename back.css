@@ -1,0 +1,11 @@
+h1{
+    color: transparent;
+    background-clip:text;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRRzp2BctGiHdMyXJr6xoBYPwPL3OsKWftgo21Yck44c5kKKvuNLrsVbro&s);
+}
+
+/* h2{
+    color:transparent;
+    background-clip:text;
+    background-image:image("rena.jpg");
+} */

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .header{
+            background-color: black;
+            color: white;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: nowrap;
+            justify-content: space-around;
+        }
+        ul{
+            display: flex;
+            /* margin: 10px; */
+            justify-content: center;
+            list-style-type: none;
+            padding: 7px;
+            margin-left: 70%;
+            font-size: 14px;
+        }
+        li,ul{
+            margin-right: 20px;
+            justify-content: space-between;
+            /* transition: transorm 0.5s ease; */
+        }
+        .container{
+            background-color: chocolate;
+            display: flex;
+            margin: 10px;
+            align-items: center;
+            /* justify-content: space-between; */
+            /* height: 300px; */
+            /* width: 300px; */
+            flex-wrap: wrap;
+
+        }
+        .container > div{
+            /* height: 100px; */
+            /* width: 100px; */
+            background-color: aqua;
+            font-size: 30px;
+            text-align: center;
+            padding: 20px;
+            margin: 5px;
+            line-height: 30px;
+
+
+
+        }
+        li:hover{
+            cursor: pointer;
+            /* color: bisque; */
+            text-decoration: underline;
+            /* transform: scale(1.05); */
+
+
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h3>Blog</h3>
+        <ul>
+            <li>Home</li>
+            <li>about</li>
+            <li>contact</li>
+        </ul>
+    </div>
+    <div class="container">
+        <div>1</div>
+        <div>2</div>
+        <div style="flex-grow: 2;">3</div>
+        <div style="flex-grow: 4;">4</div>
+        <div>5</div>
+        <div>6</div>
+        <div>7</div>
+        <div>8</div>
+        <div style="flex-basis: 100px;">9</div>       
+    </div>
+</body>
+</html>
